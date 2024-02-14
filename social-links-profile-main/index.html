@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  body{
+    font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  background-color: black;
+}
+.img{
+  width: 80px;
+  border-radius: 50px;
+}
+.display{
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 16px;
+  width: fit-content;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(20, 16, 16);
+  
+  
+}   
+.dis{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  opacity:  0.9;
+}
+h2{
+  color: white;
+}
+h5{
+  color: chartreuse;
+  position: relative;
+  bottom: 25px;
+}
+p{
+  color:whitesmoke ;
+  position: relative;
+  bottom: 30px;
+
+}
+li{
+  background-color: rgba(31, 34, 31, 0.479);
+  border: 1px solid;
+  border-radius: 5px;
+  list-style: none;
+  width: 250px;
+  margin: 10px;
+  margin-right: 50px;
+  position: relative;
+  bottom:40px ;
+  a{text-decoration: none;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}a:hover{
+  background-color: chartreuse;
+  color: black;
+}
+}
+
+  </style>
+</head>
+<body>
+  <div class="dis">
+  <div class="display">
+    <img class="img" src="/social-links-profile-main/assets/images/avatar-jessica.jpeg" alt="">
+    <h2 class="username">Jessica Randall</h2>
+    <h5>London, United Kingdom</h5>
+    <p>"Front-end developer and avid reader."</p>
+
+    <div class="list-container">
+      <ul class="list">
+        <li><a target="_blank" href="http://www.twitter.com/jrnyc">GitHub</a></li>
+        <li><a target="_blank" href="http://www.github.com/jrnyc">Frontend Mentor</a></li>
+        <li><a target="_blank" href="http://www.twitter.com/jrnyc">LinkedIn</a></li>
+        <li><a target="_blank" href="http://www.twitter.com/jrnyc">Twitter</a></li>
+        <li><a target="_blank" href="http://www.twitter.com/jrnyc">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  </div>
+</body>
+</html>
